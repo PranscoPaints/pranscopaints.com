@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="./Style/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<title>PRANSCO Paint Product</title>
+
+</head>
+
+<body>
+    <div class="blur-overlay"></div>
+    <!-- 🔥 Add the hamburger & close icon -->
+    <div class="mobile-toggle">
+        <i id="hamburger" class="fas fa-bars fa-2x" onclick="toggleMenu()"></i>
+        <i id="closeIcon" class="fas fa-times fa-2x" onclick="toggleMenu()" style="display: none;"></i>
+    </div>
+
+    <nav>
+        <div class="logo-title">
+            <img src="./logo/3.png" alt="Logo">
+            <div class="nav-title" >PRANSCO PAINT PRODUCT</div>
+        </div>
+
+        <!-- 🔥 Make nav-links toggleable by giving it an ID -->
+        <div id="mobileNav" class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section class="hero" id="home">
+    <div class="hero-overlay">
+        <h1> Pransco Bringing colors to your Dream world </h1>
+        <p>Our Products Can Make Your Credibility In Your Choice</p>
+        <a href="#more-info" class="btn-read-more" >➤ Read More</a>
+    </div>
+    </section>
+
+    <!-- Target section for "Read More" -->
+    <section id="more-info" class="more-info">
+    <h2 id="about">About Our Services</h2>
+    <p>
+        At PRANSCO, we go beyond paint — offering tailored solutions, expert consultation,
+        and top-tier support to make your dream colors a lasting reality. Whether it's your home's
+        exterior or an industrial project, we provide reliability, durability, and beauty.
+    </p>
+    </section>
+
+    <section class="services-section">
+        <h2>See Our Products</h2>
+        <div class="services-container" id="services">
+            <div class="service-card">
+            <img src="./IMG/4.png" alt="Interior Paint">
+            <h3>Interior Paint</h3>
+            <p>Beautiful, durable colors to bring your indoor spaces to life.</p>
+            </div>
+            <div class="service-card">
+            <img src="./IMG/20.png" alt="Exterior Paint">
+            <h3>Exterior Paint</h3>
+            <p>Weatherproof solutions for long-lasting outdoor beauty.</p>
+            </div>
+            <div class="service-card">
+            <img src="./IMG/22.png" alt="Wood Coatings">
+            <h3>Wood Coatings</h3>
+            <p>Protect and enhance wood with rich, premium finishes.</p>
+            </div>
+            <div class="service-card">
+            <img src="./IMG/12.png" alt="Primer">
+            <h3>Primer</h3>
+            <p>Ensure solid, even coverage with our trusted primer range.</p>
+            </div>
+            <div class="service-card">
+            <img src="./IMG/16.png" alt="Primer">
+            <h3>Wall Putty</h3>
+            <p>Ensuring a long life for finish coat</p>
+            </div>
+            <div class="service-card">
+            <img src="./IMG/1.png" alt="Primer">
+            <h3>Super Gloss Enamel</h3>
+            <p>A smooth high durable Super Gloss Enamel</p>
+            </div>
+        </div>
+    </section>
+    <section class="details-bar">
+    <h2>Our Paint Services</h2>
+    <p class="details-subtext">High-performance paint solutions for every need!</p>
+    <div class="details-grid">
+        <div class="details-card">
+        <img src="./IMG/666.jpg" alt="Interior Paint" />
+        <h3>Interior Paint</h3>
+        </div>
+        <div class="details-card">
+        <img src="./IMG/pexels-binyamin-mellish-106399-1024x683.jpg" alt="Exterior Paint" />
+        <h3>Exterior Paint</h3>
+        </div>
+        <div class="details-card">
+        <img src="./IMG/our-products-3.jpg" alt="Wood Coatings" />
+        <h3>Wood Coatings</h3>
+        </div>
+        <div class="details-card">
+        <img src="./IMG/iStock-1176903857-1100x733.jpg" alt="Primer" />
+        <h3>Standard Ideology</h3>
+        </div>
+        <div class="details-card">
+        <img src="./IMG/ghk100120reportfeature-001-1599754853.jpg" alt="Painting Tools" />
+        <h3>Painting Tools</h3>
+        </div>
+        <div class="details-card">
+        <img src="./IMG/color-consultation.jpg" alt="Color Consultation" />
+        <h3>Color Consultation</h3>
+        </div>
+    </div>
+    </section>
+
+    
+
+    <div class="callback-container" id="contact">
+        <h2>Request a Callback</h2>
+        <form id="callbackForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <input type="tel" id="phone" placeholder="Your Phone Number" required />
+            <button type="submit">Send</button>
+        </form>
+        <div id="successMessage" class="success-message">Thanks! We'll get in touch shortly. ✔️</div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-item">
+                    <i class="fab fa-facebook fa-lg"></i>
+                    <a href="https://www.facebook.com/share/1EnMRQyNNp" target="_blank">PRANSCO PAINTS </a>
+                </div>
+                <div class="footer-item">
+                    <i class="fab fa-whatsapp fa-lg"></i>
+                    <a href="https://wa.me/93702756846">+93702756846</a>
+                </div>
+                <div class="footer-item">
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                    <a href="https://maps.app.goo.gl/Pk7T3f4GcUYMn9v38" target="_blank">Shahidan Chuk, Mile Market, Shop No. 1</a>
+                </div>
+                <div class="footer-item">
+                    <i class="fas fa-envelope fa-lg"></i>
+                    <a href="https://mail.google.com/mail/?view=cm&to=pranscopaints@gmail.com&su=Hello&body=I%20have%20a%20question" target="_blank">
+                    info@pranscopaints.com
+                    </a>
+
+                </div>
+                <div class="footer-copy">
+                    &copy; 2025 PRANSCO Paint Product. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./JS/Toggle.js" >    </script>
+
+
+
+</body>
+
+</html>
